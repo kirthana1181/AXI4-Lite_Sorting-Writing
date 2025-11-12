@@ -1,5 +1,5 @@
-# AXI4-Lite_Sorting-Writing
-In this repository, an AXI4-Lite Protocol Slave Peripheral Transaction has been coded that can receive data packets, validate them based on sorting condition valid or invalid storage. The design of storages is a simple FIFO-like sorting.
+# AXI4-Lite Slave Peripheral-Based Packet Sorter cum Validator
+In this repository, an AXI4-Lite Protocol Slave Peripheral Transaction has been coded that can receive data packets, validate them based on sorting condition valid or invalid storage. The design of the storage is a simple FIFO, and the validating and sorting takes place using the valid and invalid FIFOs.
 **This design implements a custom AXI4-Lite slave peripheral on an FPGA that performs packet validation and classification using simple control logic and FIFO storage.**
 # Functionality Overview
 Purpose: Receive 32-bit data packets, validate them using a rule, and store them in either a valid or invalid FIFO based on that rule.
